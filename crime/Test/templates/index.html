@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Home Page</h1><br />
+    {% if message %}
+        {{ message }}
+    {% endif %}
+    {% if request.session.emailid == "mohanrao@gmail.com "%}
+        <a href = "/logout/">Sign Out</a> | <a href = "/addrec/">Add Records</a> |
+        <a href = "/editrec/">Edit Records</a> |
+        <a href = "/updaterec/">Update Records</a> |
+        <a href = "/delrec/">Delete Records</a> |
+    {% else %}
+        <a href = "/register/">Sign Up</a> | <a href = "/signin/">Sign In</a>
+    {% endif %}
+</body>
+</html>

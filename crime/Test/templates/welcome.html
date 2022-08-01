@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Welcome {{ request.session.sess_user }}</h1><br />
+    <a href = "/">Home</a>
+
+    <form name = "register" method = "post" action = "/dosignup/">
+        {% csrf_token %}
+    <table align = "center">
+        <tr>
+            <td>
+                First name
+            </td>
+            <td>
+                <input type = "text" name = "fname" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Last name
+            </td>
+            <td>
+                <input type = "text" name = "lname" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email ID
+            </td>
+            <td>
+                <input type = "text" name = "emailid" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password
+            </td>
+            <td>
+                <input type = "password" name = "passwd" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Address
+            </td>
+            <td>
+                <textarea name = "address" cols = "20" rows = "5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "2" align = "right">
+                <input type = "submit" value = "Sign Up" />
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

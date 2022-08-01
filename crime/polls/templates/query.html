@@ -1,0 +1,215 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Free responsive business website template</title>
+      <link rel="stylesheet" href="{% static 'css/components.css'%}">
+      <link rel="stylesheet" href="{% static 'css/icons.css'%}">
+      <link rel="stylesheet" href="{% static 'css/responsee.css'%}">
+      <link rel="stylesheet" href="{% static 'owl-carousel/owl.carousel.css'%}">
+      <link rel="stylesheet" href="{% static 'owl-carousel/owl.theme.css'%}"> 
+      <!-- CUSTOM STYLE -->
+      <link rel="stylesheet" href="{% static 'css/template-style.css'%}"> 
+      <link href="{% static 'http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css' %}">
+      <script type="text/javascript" src="{% static 'js/jquery-1.8.3.min.js'%}"></script>
+      <script type="text/javascript" src="{% static 'js/jquery-ui.min.js'%}"></script>    
+   </head>
+   <body class="size-1140">
+      <!-- TOP NAV WITH LOGO -->  
+      <header>
+      <!--   <nav>
+            <div class="line">
+                Mobile version of logo
+               <div class="logo logo-small">
+                 <a href="index.html"> <br /><strong>C REP</strong></a>
+               </div>  
+               
+               <div class="top-nav">              
+
+                  <div class="s-12 l-5">
+                     <ul class="right top-ul chevron">
+                        <li><a href="index.html">Home</a>
+                        </li>
+                        <li><a href="login.html">LOGIN</a>
+                        </li>
+                        <li><a href="services.html">Services</a>
+                        </li>
+                     </ul>
+                  </div> 
+                  <ul class="s-12 l-2">
+                     <li class="logo hide-s hide-m">
+                        <a href="index.html"> <br /><strong>C REP</strong></a>
+                     </li>
+                  </ul>
+                  <div class="s-12 l-5">
+                     <ul class="top-ul chevron">
+                        <li><a href="fir.html">F.I.R</a>
+                        </li>
+                        <li><a href="about.html">About Us</a>
+                        </li>
+                        <li><a href="contact.html">Contact</a>
+                        </li>
+                     </ul> 
+                  </div>
+               </div>
+            </div>
+         </nav> -->
+      </header>
+      <section>
+         <div id="head">
+            <div class="line">
+               <h1>Submit Your Request</h1>
+            </div>
+         </div>
+         <div id="content" class="left-align contact-page" style="	background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5),rgba(0,0,0,1)),url('./third.jpg') top/cover fixed no-repeat;
+         ">
+            <div class="line">
+               <div class="margin">
+                  
+                  <div class="s-12 l-6">
+                     <h2>Complain & Incident Detail</h2>
+                     <form class="customform" action="#" method="post">
+                        <div class="s-12 l-7"><input name="" placeholder="Your Name" title="Your e-mail" type="text" /></div>
+                        <div class="s-12"><input type="number" placeholder="Mobile Number" name=""></div>
+                        <div class="s-12"><input type="date" placeholder="Mobile Number" name=""></div>
+                       
+                       
+                        <select name="state" id="countySel" size="1" class="s-12 l-7">
+                           <option value="" selected="selected">Select Country</option>
+                           </select>
+                       
+                           <select name="countrya" id="stateSel" size="1" class="s-12 l-7">
+                              <option value="" selected="selected">Please select Country first</option>
+                              </select>
+                  
+                              <select name="district" id="districtSel" size="1" class="s-12 l-7">
+                                 <option value="" selected="selected">Please select State first</option>
+                                 </select>
+
+                                 <select class="s-12 l-7">
+                                    <option value="" >Select Your Crime Category</option>
+                                    <option value="" >cyber crime</option>
+                                    <option value="" >thefts</option>
+                                    <option value="" >murder</option>
+                                    <option value="" >sexual assault</option>   
+                                    <option value="" >lynching</option>   
+                                 </select>
+
+                        
+                       
+                    <div class="s-12"><textarea placeholder="Your message" name="" rows="5"></textarea></div>
+                        <div class="s-12 m-6 l-4"><button type="submit">Submit Button</button></div>
+                     </form>
+                  </div>
+
+
+
+               </div>
+            </div>
+         </div>
+         <!-- MAP 	
+         <div id="map-block">  	  
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d682251.1123056135!2d17.063451638281247!3d48.09010461740988!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8cbf758ecb9f%3A0xddeb1d26bce5eccf!2sGallayova+2150%2F19%2C+841+02+D%C3%BAbravka%2C+Slovensk%C3%A1+republika!5e0!3m2!1ssk!2s!4v1412519122400" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+         </div>
+         <div id="fourth-block">
+            <div class="line">
+               <div id="news-carousel" class="owl-carousel owl-theme">
+                  <div class="item">
+                     <h2>Amazing responsive template</h2>
+                     <p class="s-12 m-12 l-8 center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                     </p>
+                  </div>
+                  <div class="item">
+                     <h2>Responsive components</h2>
+                     <p class="s-12 m-12 l-8 center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                     </p>
+                  </div>
+                  <div class="item">
+                     <h2>Retina ready</h2>
+                     <p class="s-12 m-12 l-8 center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>  -->
+      <!-- FOOTER -->   
+      <footer>
+         <div class="line">
+            <div class="s-12 l-6">
+               <p>Copyright 2019, Vision Design - graphic zoo
+               </p>
+            </div>
+            <div class="s-12 l-6">
+               <p class="right">
+                  <a class="right" href="{% static 'http://www.myresponsee.com' %}" title="Responsee - lightweight responsive framework">Design and coding by Responsee Team</a>
+               </p>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript" src="{% static 'js/responsee.js' %}"></script> 
+      <script type="text/javascript" src="{% static 'owl-carousel/owl.carousel.js' %}"></script>   
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {  
+           var owl = $('#news-carousel');
+           owl.owlCarousel({
+              nav: true,
+              dots: false,
+              items: 1,
+              loop: true,
+              navText: ["&#xf007","&#xf006"],
+              autoplay: true,
+              autoplayTimeout: 4000
+           });
+         });	
+          
+      </script> 
+      
+      <script>
+         var stateObject = {
+         "India": { 
+         "Delhi": ["new Delhi", "North Delhi"],
+         "Kerala": ["Thiruvananthapuram", "Palakkad"],
+         "Goa": ["North Goa", "South Goa"],
+         "Uttar Pradesh": ["Lucknow", "Kanpur","Agra","Varanasi"],
+         "Bihar": ["Patna","Balia"],
+         "Madhya Pradesh": ["Bhopal", "Indore"],
+         "Uttarakhand": ["Dehradun", "Rishikesh"],
+
+                 
+         },
+         
+         }
+         window.onload = function () {
+         var countySel = document.getElementById("countySel"),
+         stateSel = document.getElementById("stateSel"),
+         districtSel = document.getElementById("districtSel");
+         for (var country in stateObject) {
+         countySel.options[countySel.options.length] = new Option(country, country);
+         }
+         countySel.onchange = function () {
+         stateSel.length = 1; // remove all options bar first
+         districtSel.length = 1; // remove all options bar first
+         if (this.selectedIndex < 1) return; // done
+         for (var state in stateObject[this.value]) {
+         stateSel.options[stateSel.options.length] = new Option(state, state);
+         }
+         }
+         countySel.onchange(); // reset in case page is reloaded
+         stateSel.onchange = function () {
+         districtSel.length = 1; // remove all options bar first
+         if (this.selectedIndex < 1) return; // done
+         var district = stateObject[countySel.value][this.value];
+         for (var i = 0; i < district.length; i++) {
+         districtSel.options[districtSel.options.length] = new Option(district[i], district[i]);
+         }
+         }
+         }
+         </script>
+
+
+
+   </body>
+</html>
